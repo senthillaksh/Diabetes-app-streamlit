@@ -2,7 +2,7 @@
 import pickle
 import streamlit as st
 
-#loading the saved models
+# loading the saved models
 
 diabetes_model = pickle.load(open('/content/drive/MyDrive/Diabetes Prediction /diabetes_prediction.pkl', 'rb'))
 
