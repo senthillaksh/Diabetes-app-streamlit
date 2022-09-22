@@ -6,7 +6,7 @@ import streamlit as st
 
 diabetes_model = pickle.load(open('diabetes_prediction.pkl', 'rb'))
 
-#creating function for prediction
+# creating function for prediction
 
 def predict_diabetes(Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DPF, Age):
 
